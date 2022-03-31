@@ -162,7 +162,7 @@ type = "virtualenv"
   [tool.poe.tasks.virtualenv-setup]
   help = "Setup the virtual env"
   shell = """
-    virtualenv --python=python3.10.1 .venv
+    python -m virtualenv --python=python3.10.1 .venv
   """
   interpreter = "powershell"
 
